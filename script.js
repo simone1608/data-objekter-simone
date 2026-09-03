@@ -86,3 +86,33 @@
 //         `${gmm.name}, Age: ${gmm.age}, Job: ${gmm.job}`;
 //     rootElement.append(divElement);
 // })
+
+
+// Opgave 6
+const gmmtv = [
+    {
+        name: "Santa Pongsapak", age: 22, job: "Actor, Singer and model"
+    },
+    {
+        name: "Perth Tanapon", age: 25, job: "Actor, Singer and model"
+    },
+    {
+        name: "Bright Vachirawit", age: 28, job: "Actor, Singer and model"
+    },
+];
+
+const rootElement = document.querySelector(".root")
+
+gmmtv.forEach(function (gmm) {
+    const divElement = document.createElement("div");
+    divElement.classList.add("gmm");
+
+    const gmmHeadline = document.createElement("h2");
+    gmmHeadline.textContent = gmm.name;
+
+    const gmmInfo = document.createElement("p");
+    gmmInfo.textContent = `Age: ${gmm.age}, Job: ${gmm.job}`;
+
+    divElement.append(gmmHeadline, gmmInfo);
+    rootElement.append(divElement);
+})
