@@ -42,23 +42,49 @@
 
 
 // Opgave 3
-const gmmtv = [
-    {
-        name: "Santa Pongsapak", age: 22, job: "Actor, Singer and model"
-    },
-    {
-        name: "Perth Tanapon", age: 25, job: "Actor, Singer and model"
-    },
-    {
-        name: "Bright Vachirawit", age: 28, job: "Actor, Singer and model"
-    },
-];
+// const gmmtv = [
+//     {
+//         name: "Santa Pongsapak", age: 22, job: "Actor, Singer and model"
+//     },
+//     {
+//         name: "Perth Tanapon", age: 25, job: "Actor, Singer and model"
+//     },
+//     {
+//         name: "Bright Vachirawit", age: 28, job: "Actor, Singer and model"
+//     },
+// ];
 
-const rootElement = document.querySelector(".root")
+// const rootElement = document.querySelector(".root")
 
-gmmtv.forEach(function (gmm) {
-    const divElement = document.createElement("div");
-    divElement.textContent =
-        gmm.name + ', Age: ' + gmm.age + ', Job: ' + gmm.job;
-    rootElement.append(divElement);
-})
+// gmmtv.forEach(function (gmm) {
+//     const divElement = document.createElement("div");
+//     divElement.textContent =
+//         gmm.name + ', Age: ' + gmm.age + ', Job: ' + gmm.job;
+//     rootElement.append(divElement);
+// })
+
+
+// Opgave 4
+// const gmmtv = [
+//     {
+//         name: "Santa Pongsapak", age: 22, job: "Actor, Singer and model"
+//     },
+//     {
+//         name: "Perth Tanapon", age: 25, job: "Actor, Singer and model"
+//     },
+//     {
+//         name: "Bright Vachirawit", age: 28, job: "Actor, Singer and model"
+//     },
+// ];
+
+// const rootElement = document.querySelector(".root")
+
+// gmmtv.forEach(function (gmm) {
+//     const divElement = document.createElement("div");
+//     divElement.textContent =
+//         `${gmm.name}, Age: ${gmm.age}, Job: ${gmm.job}`;
+//     rootElement.append(divElement);
+// })
+
+
+// Opgave 5
