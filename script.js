@@ -19,23 +19,46 @@
 
 
 // Opgave 2
-const person = {
-    firstname: "Simone",
-    lastname: "Slagslunde",
-    married: false,
-    age: 20,
-    hometown: "Vanløse",
-    hobbies: ["Singing", "Watching Series", "BL", "Gaming"],
-    pet: {
-        type: "Kat",
-        name: "Snehvide",
+// const person = {
+//     firstname: "Simone",
+//     lastname: "Slagslunde",
+//     married: false,
+//     age: 20,
+//     hometown: "Vanløse",
+//     hobbies: ["Singing", "Watching Series", "BL", "Gaming"],
+//     pet: {
+//         type: "Kat",
+//         name: "Snehvide",
+//     },
+// };
+
+// person.hobbies.forEach(function (hobby) {
+//     console.log(hobby);
+// })
+
+// console.log(person.married);
+// console.log(person.pet.type);
+// console.log(person.pet.name);
+
+
+// Opgave 3
+const gmmtv = [
+    {
+        name: "Santa Pongsapak", age: 22, job: "Actor, Singer and model"
     },
-};
+    {
+        name: "Perth Tanapon", age: 25, job: "Actor, Singer and model"
+    },
+    {
+        name: "Bright Vachirawit", age: 28, job: "Actor, Singer and model"
+    },
+];
 
-person.hobbies.forEach(function (hobby) {
-    console.log(hobby);
+const rootElement = document.querySelector(".root")
+
+gmmtv.forEach(function (gmm) {
+    const divElement = document.createElement("div");
+    divElement.textContent =
+        gmm.name + ', Age: ' + gmm.age + ', Job: ' + gmm.job;
+    rootElement.append(divElement);
 })
-
-console.log(person.married);
-console.log(person.pet.type);
-console.log(person.pet.name);
