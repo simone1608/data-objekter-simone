@@ -64,7 +64,7 @@
 // })
 
 
-// Opgave 4
+// Opgave 4 og 5
 // const gmmtv = [
 //     {
 //         name: "Santa Pongsapak", age: 22, job: "Actor, Singer and model"
@@ -81,10 +81,8 @@
 
 // gmmtv.forEach(function (gmm) {
 //     const divElement = document.createElement("div");
+//     divElement.classList.add("gmm");
 //     divElement.textContent =
 //         `${gmm.name}, Age: ${gmm.age}, Job: ${gmm.job}`;
 //     rootElement.append(divElement);
 // })
-
-
-// Opgave 5
